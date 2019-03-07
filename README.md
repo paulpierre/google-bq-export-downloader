@@ -7,7 +7,7 @@
 When exporting a massive amount of data, like a year's worth of analytics from Big Query, GCP will drop your files serialized into a storage bucket. Depending on usage, this could mean thousands of files. This script allows you download those files on autopilot
 
 ### How to use it?
-* The remote file path syntax is the following: https://storage.googleapis.com/ **folder**/**prefix**_export/**prefix**_**year**_**month**_**serialization**>.csv.gz
+* The remote file path syntax is the following: https://storage.googleapis.com/ <folder>/<prefix>_export/<prefix>_<year>_<month>_<serialization>.csv.gz
 * In the python file, set the following variables:
     * **folder** - just set the name of the folder path in your bucket storage
     * **prefix** - set the prefix of your exported name scheme
