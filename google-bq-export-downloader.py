@@ -103,7 +103,7 @@ while not _year > 2019:
 					
 					# Write
 					open(out_file, 'wb').write(r.content)
-					print("\n Wrote file:  %s" % out_file)
+					print((colors.green + '\nWrote file:  ' + colors.reset +' %s') % out_file)
 				else:
 					# If there was an error, let the user know
 					print((colors.red + 'error in url: ' + colors.white + ' %s' + colors.reset) % url)
@@ -114,7 +114,7 @@ while not _year > 2019:
 
 			# If it does exist, increment
 			else:
-				print(colors.green + 'file exists: ' + colors.reset +'%s' % out_file)
+				print(colors.white + 'file exists: ' + colors.reset +'%s' % out_file)
 
 			i += 1
 
