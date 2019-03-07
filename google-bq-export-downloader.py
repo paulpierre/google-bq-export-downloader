@@ -103,7 +103,7 @@ while not _year > 2019:
 					
 					# Write
 					open(out_file, 'wb').write(r.content)
-					print((colors.green + '\nWrote file:  ' + colors.reset +' %s') % out_file)
+					print((colors.green + '\nWrote file: ' + colors.reset +' %s') % out_file)
 				else:
 					# If there was an error, let the user know
 					print((colors.red + 'error in url: ' + colors.white + ' %s' + colors.reset) % url)
