@@ -1,6 +1,6 @@
 ![logo](https://seeklogo.com/images/G/google-big-query-logo-AC63E7C329-seeklogo.com.png)
 # Exported CSV Downloader
-### by [@paulpierre](https://www.paulpierre/?ref=github)
+### by [@paulpierre](https://www.paulpierre.com/?ref=github)
 ---
 
 ### Who is google-bq-export-downloader.py for?
@@ -17,7 +17,7 @@ When exporting a massive amount of data, like a year's worth of analytics from B
 * Run: python google-bq-export-downloader.py
 
 ### Features
-* **Stop/Resume** Skips files that exist in the current director so you can stop / resume downloading
+* **Stop/Resume** Skips files that exist in the current directory so you can stop / resume downloading
 * **Smart serialization** Will skip, continue and reset serialization if files don't exist in the remote path
 * **Month/Year serialization** Properly increments month and year
 
