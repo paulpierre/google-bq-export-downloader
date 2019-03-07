@@ -1,5 +1,6 @@
 ![logo](https://seeklogo.com/images/G/google-big-query-logo-AC63E7C329-seeklogo.com.png)
 # Exported CSV Downloader
+### by [@paulpierre](https://www.paulpierre/?ref=github)
 ---
 
 ### Who is google-bq-export-downloader.py for?
@@ -20,7 +21,7 @@ When exporting a massive amount of data, like a year's worth of analytics from B
 * **Smart serialization** Will skip, continue and reset serialization if files don't exist in the remote path
 * **Month/Year serialization** Properly increments month and year
 
-Note: This is as-is, I wrote and debugged this in 30 minutes and threw it up as soon as I had it running so it's not refactored nor clean.. but hey, I threw colors in so stfu<3 :)
+Note: If you found this useful, throw a star my way. This is as-is, I wrote and debugged this in 30 minutes and threw it up as soon as I had it running so it's not refactored nor clean.. but hey, I threw colors in so stfu<3 :)
 
 
 
